@@ -1,12 +1,9 @@
 # New-YouTube-UI-Improved-uBlock-Origin-
 I spent a good amount of time improving upon the new YouTube UI, because they did something to it only mobile users enjoy
-          |
-          |
-          V
 
 
 
-
+```
 ! Remove backgrounds from multiple elements
 www.youtube.com##.ytp-button.ytp-play-button, .ytp-button.ytp-next-button, .ytp-button.ytp-prev-button, .ytp-time-wrapper, .ytp-time-display, .ytp-time-duration, .ytp-time-current, .ytp-volume-area, .ytp-volume-slider, .ytp-volume-panel, .ytp-chapter-title, .ytp-right-controls-left, .ytp-right-controls, .ytp-right-controls-right, .ytp-volume-popover:style(background: none !important; backdrop-filter: none !important;)
 
@@ -137,3 +134,5 @@ www.youtube.com##.ytp-time-preview:style(bottom: -150px !important)
 www.youtube.com##.ytp-tooltip-edu
 www.youtube.com##.ytp-tooltip.ytp-preview:style(bottom: 50px !important; background: transparent !important; box-shadow: none !important)
 www.youtube.com##.ytp-tooltip-progress-bar-pill:style(transform: translate(-30px, -48px) !important)
+
+```
