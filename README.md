@@ -1,8 +1,15 @@
-# New-YouTube-UI-Improved-uBlock-Origin-
+# New YouTube UI Improved - uBlock Origin
+
 I spent a good amount of time improving upon the new YouTube UI, because they did something to it only mobile users enjoy
+### CLICK HERE TO GO TO THE [`CODE`](#code), ITS UNDER THE PREVIEW SCREENSHOTS 
+yt controls preview        |  settings menu preview
+:-------------------------:|:-------------------------:
+![](https://github.com/hobofootlong/New-YouTube-UI-Improved-uBlock-Origin-/blob/main/Screenshot%202025-12-25%20184313.png)  |  ![](https://github.com/hobofootlong/New-YouTube-UI-Improved-uBlock-Origin-/blob/main/image.png)
+
+![alt text](https://github.com/hobofootlong/New-YouTube-UI-Improved-uBlock-Origin-/blob/main/Screenshot%202025-12-25%20184424.png)
 
 
-
+## CODE
 ```
 ! Remove backgrounds from multiple elements
 www.youtube.com##.ytp-button.ytp-play-button, .ytp-button.ytp-next-button, .ytp-button.ytp-prev-button, .ytp-time-wrapper, .ytp-time-display, .ytp-time-duration, .ytp-time-current, .ytp-volume-area, .ytp-volume-slider, .ytp-volume-panel, .ytp-chapter-title, .ytp-right-controls-left, .ytp-right-controls, .ytp-right-controls-right, .ytp-volume-popover:style(background: none !important; backdrop-filter: none !important;)
